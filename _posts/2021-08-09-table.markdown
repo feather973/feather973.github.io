@@ -8,3 +8,6 @@ hello my table
 안녕하세요, 첫번째 포스트입니다.
 
 {% gist feather973/0309c98f06369b7ff87b852517b786de	%}
+
+https://app.diagrams.net/ 를 사용해서 그렸습니다. ( github 로그인 필요 )
+{% drawio path="_data/Untitled Diagram.drawio" page_number=1 height=1000 %}
