@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Welcome to Jekyll123!"
----
-
-![My helpful screenshot](/_data/123.jpg)
-
-you can [get the PDF](/_data/mydoc.pdf) directly.
