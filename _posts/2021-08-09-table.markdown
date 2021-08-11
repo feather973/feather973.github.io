@@ -8,4 +8,3 @@ hello my table
 {% gist feather973/0309c98f06369b7ff87b852517b786de	%}
 
 https://app.diagrams.net/
-{% drawio path="../_data/Untitled\ Diagram.drawio" page_number=0 height=1000 %}
