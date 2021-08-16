@@ -12,3 +12,9 @@ hello my table
 drawio 예시입니다.
 
 {% drawio path="images/test.drawio" page_number=0 height=500 %}
+
+image 예시입니다.
+
+![1.jpg](/images/1.jpg)
+
+[<img src="/images/1.jpg" width="100"/>](1.jpg)
