@@ -5,8 +5,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Aug 2021 02:14:47 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Aug 2021 02:14:47 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Aug 2021 02:37:56 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Aug 2021 02:37:56 -0700</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
     
       <item>
@@ -41,8 +41,6 @@ int main()
 &lt;p&gt;image 예시입니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/1.jpg&quot; alt=&quot;1.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;1.jpg&quot;&gt;&lt;img src=&quot;/images/1.jpg&quot; width=&quot;100&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/table/</link>
