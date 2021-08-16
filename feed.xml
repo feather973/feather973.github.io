@@ -5,8 +5,8 @@
     <description>An amazing website.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Aug 2021 03:58:25 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Aug 2021 03:58:25 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Aug 2021 07:29:14 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Aug 2021 07:29:14 -0700</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
     
       <item>
@@ -55,6 +55,30 @@ int main()
 &lt;p&gt;&lt;a href=&quot;penguin.jpeg&quot;&gt;&lt;img src=&quot;/images/penguin.jpeg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;penguin.jpeg&quot;&gt;&lt;img src=&quot;/images/penguin.jpeg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;post-disqus&quot; class=&quot;container&quot;&gt;
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://feather973.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+
+&lt;/div&gt;
+
 </description>
         <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/table/</link>
