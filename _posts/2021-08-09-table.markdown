@@ -1,7 +1,6 @@
 ---
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+layout: default
+comments: true
 ---
 hello my table
 
@@ -30,3 +29,9 @@ image 예시2 입니다.
 [<img src="/images/penguin.jpeg" width="200"/>](penguin.jpeg)
 
 [<img src="/images/penguin.jpeg" width="200"/>](penguin.jpeg)
+
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}
