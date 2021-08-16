@@ -25,8 +25,8 @@ image 예시입니다.
 
 image 예시2 입니다.
 
-[<img src="/images/penguin.jpg" width="200"/>](penguin.jpg)
+[<img src="/images/penguin.jpeg" width="200"/>](penguin.jpeg)
 
-[<img src="/images/penguin.jpg" width="200"/>](penguin.jpg)
+[<img src="/images/penguin.jpeg" width="200"/>](penguin.jpeg)
 
-[<img src="/images/penguin.jpg" width="200"/>](penguin.jpg)
+[<img src="/images/penguin.jpeg" width="200"/>](penguin.jpeg)
