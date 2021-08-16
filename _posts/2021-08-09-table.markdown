@@ -16,5 +16,3 @@ drawio 예시입니다.
 image 예시입니다.
 
 ![1.jpg](/images/1.jpg)
-
-[<img src="/images/1.jpg" width="100"/>](1.jpg)
