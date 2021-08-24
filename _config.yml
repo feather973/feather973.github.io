@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Test blog"
+title                    : "Pengurues"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Pengurues"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "Test blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Pengurues" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wonguk Lee"
+  name             : "Pengurues"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Blog admin**"
-  location         : "Seoul"
-  email            : "wonguk.lee@ahnlab.com"
+  bio              : "Extreme Kernel Study Group"
+  location         : "Earth"
+  email            : "pengurues@daum.net"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -288,3 +288,5 @@ defaults:
       comments: # true
       share: true
       related: true
+
+future: true
