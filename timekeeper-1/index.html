@@ -9,24 +9,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Timekeeper 1 - Test blog</title>
-<meta name="description" content="Timekeeper-1">
+<!-- begin _includes/seo.html --><title>Timekeeper 1 - Pengurues</title>
+<meta name="description" content="PTP 프로토콜과 xtime 을 소개하는 게시물입니다.">
 
 
-  <meta name="author" content="Wonguk Lee">
+  <meta name="author" content="Pengurues">
   
-  <meta property="article:author" content="Wonguk Lee">
+  <meta property="article:author" content="Pengurues">
   
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Test blog">
+<meta property="og:site_name" content="Pengurues">
 <meta property="og:title" content="Timekeeper 1">
 <meta property="og:url" content="http://localhost:4000/timekeeper-1/">
 
 
-  <meta property="og:description" content="Timekeeper-1">
+  <meta property="og:description" content="PTP 프로토콜과 xtime 을 소개하는 게시물입니다.">
 
 
 
@@ -55,7 +55,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Your Name",
+      "name": "Pengurues",
       "url": "http://localhost:4000/"
     
   }
@@ -71,7 +71,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Test blog Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Pengurues Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -117,7 +117,7 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          Test blog
+          Pengurues
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -136,28 +136,26 @@
 
 
     <div class="initial-content">
-      <h1 id="timekeeper-1">Timekeeper-1</h1>
+      <p>PTP 프로토콜과 xtime 을 소개하는 게시물입니다.<br /></p>
 
 <ul>
 
 목차<br />
 1) PTP 프로토콜 예시<br />
-2) array_index_mask_nospec 에서 ~ 쓰는 이유<br />
+2) array_index_mask_nospec 에서 ~ 의 의미<br />
 3) timekeeper xtime<br />
-4) shadow timekeeping<br /><br />
+4) (next) shadow timekeeping<br /><br /><br />
 
 1) PTP 프로토콜 예시<br />
 https://endruntechnologies.com/pdf/PTP-1588.pdf<br />
 
-포인트는 SLAVE CLOCK 을 MASTER CLOCK 에게 맞추는 것입니다.<br /> 
-<div style="padding-left: 30px;">
+프로토콜 동작의 포인트는 SLAVE CLOCK 을 MASTER CLOCK 에게 맞추는 것입니다.<br /> 
 <iframe frameborder="0" style="width:100%;height:500px" src="https://viewer.diagrams.net/?highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=%ED%8E%98%EC%9D%B4%EC%A7%80-1#R7Vpdb%2Bo4EP01kboPSIkdQngkFHZfKq22SLuvJnGCVRNzE1Ngf%2F3asfPhmIrtbYEL7VV1ZWbsGWfOGdsZx4HT9f73Am1WTyzB1AFusnfgowPAKAjF%2F1JwUAI%2FBEqQFSRRIq8VPJN%2FsRa6WrolCS6NjpwxysnGFMYsz3HMDRkqCrYzu6WMml43KMOW4DlG1Jb%2BTRK%2BUtIQjFr5H5hkq9qzF4yVZo3qzvpJyhVK2K4jgjMHTgvGuGqt91NMZezquKhx8ze0zcQKnPP%2FMyBa%2FhiONmn8D%2For98giPKTlYqCtvCK61Q%2BsJ8sPdQRwnkxkIMWvmKKyJLEDoxVfUyHwRFMNwIkVx3ZiXvO4giaYrTEvDqLLrg3oUAdp1YllLSswRZy8muaRxjVrzDUe%2FmREOAaupiBwtZ1D73dtomTbIsZ6VDeAPUO%2Bf8IQR0WGuWVINDqP3YoqfN6BFfgCWIVmiD3wk1gNwQlDZ8YK2ljNHp3QcyIxD9eZRU4Yyr%2FZxIlUQ0giJxKLh%2Bs5s6kT%2BVLax5fjPTcRLXnBXvCUUVYISc5y0TNKCaU9EaIkyyUtBNBYyKNXXHAi1rmJVqxJkkg30W5FOH7eoFj63IlFXcgKts0TLB%2FYbVgkDeD9e3lU4zMy8alTq0Oz8RGa9VHsMsqA8L14%2BV8gtz5rHTyZpGfOreHHseomiANgGsY4jq1sEpr53BX%2FbgHd8JPQhcF10Q0%2Bjq6FosRwPr8BFE8eMW5l%2Fxvd%2F3p6MlFu5VwZWliJly84kbMIqDxuLAvRymRr4Vkw3s2RxOuvoJ7eaDp08i95JhlbuDyhUkZKvO1SFr%2FcMRSwl1pj%2B3h4USjqakQHi2eKxNJhZchXQ8a7NjJ2BWMBbFiaFe1egQG93Si88uLl2dUKhUFwvxgMe29YV1%2B17CpEg4G1s%2Fv3i4sPfrGd3TtWblCIlBuUGzAEP7as2lhUiCfy4JotH6oyEhDu3U7rN9mUIXNTlvNBitaEHtQYYQitN5USQl%2FCiukrlqBYGtNIWZXkpQkPbPY9nZqlVOasWCNqqnc6llLvq3lWSoq5oMVAPGpM8uzoeMm9gaaRVGsmGWoiWJJr825napWSFygvU2G0Ni%2BIWXfYsSIxvXeHL1H8klUcHPRiDvywiTXwx2172Il8QsoNRTrqJKek4zilDPHuhGpwzW2qIYMgl%2BKD0r6VoceSyHqR%2BtTdBbh2BgVHMgieLYOOFYG%2BM%2Bg7gxos8mW50VD0RAv41vnw10s86HtG4o2unXd2saAJZgeCSiAZLInX1OFarGCaVnVVC74nGWd0KCvAddb1oGoHyWqES2TftmDR2quBVNMwpybEy1Pg3v65B7omebzAPpB67kUPPnZN46foI8mTph%2Blj2%2FSJ%2Fimj3ls7t3RXZ8%2BwH7ZF5Eb7JCc9UN1wzp3wnF1qzpyJnpPeZRKtcfL7cCvpGIeQK73Wn%2BkZGBLWJqWWHLyoSLYLHIiKC9qZ1PhyxkPK7%2BiAVq%2F0u3A8FRf498jY0AQmMfE0RHGjC7KGLsMYYX%2F1i8i%2Bhe7zX3CRy8iLEPn%2FsDlyFcT9waWNzZTpLlFejdY8IShc4Nl1zC%2B6vWED%2B1l7qL1JGC%2FDX9fT1RJMTwbMuJn%2B%2B2mSqr2A1g4%2Bw8%3D"></iframe><br /><br />
-</div>
 
-2) array_index_mask_nospec 에서 ~ 쓰는 이유<br />
+2) array_index_mask_nospec 에서 ~ 의 의미<br />
 https://dojang.io/mod/page/view.php?id=183<br /><br />
 
-포인트는 정상범위일땐 음수비트를 '산술시프트'하여 0xffffffff 마스크를<br />
+정상범위일땐 음수비트를 산술시프트하여 0xffffffff 마스크를<br />
 비정상범위일땐 양수비트를 산술시프트하여 0x0 마스크를 획득합니다.<br /><br />
 
 <noscript><pre>/**
@@ -187,22 +185,23 @@ static inline unsigned long array_index_mask_nospec(unsigned long index,
 3) timekeeper xtime<br />
 http://jake.dothome.co.kr/timekeeping<br /><br />
 
+54Mhz 시스템에서 1사이클에 소요되는 시간은 아래식으로 계산됩니다.<br />
 1사이클 / 54,000,000Hz = 18.518518518ns 소요<br /><br />
 
-소요시간의 정확도를 높이기 위해 xtime 개념등장<br />
-xtime += 소요된 사이클 x mult<br /><br />
+n사이클에 소요되는 시간을 계산하려면<br />
+18.518518518(실수) x n(정수) 이므로, 소수점 이하 정확도가 떨어지게 됩니다.<br /><br />
 
-mult 를 구하는 방법은?<br /><br />
+18.518518518 x 2^10 = 18962 처럼 정수화 시켜서 사용하게 되는데,<br />
+이때 18962 는 mult 입니다. ( n사이클에 곱하는 수 )<br />
+ex) xtime = 10사이클 * mult<br />
+          = 10 * 18962 = 189620<br /><br />
 
-18.518518518 x 2^10 의 정수부 18962 : mult<br />
-  - 10자리 정확도의 '이진화 정수'<br />
-  - mult 는 1사이클 당 소요시간을 '이진화' 시킨 값<br />
-  - 그럼 mult 이진화된 내용을 다시 원복시키려면?<br /><br />
+반대로 xtime 을 소요시간으로 되돌리고 싶을땐 &gt;&gt; 10 하게 되는데,<br />
+이때 10 는 shift 입니다. ( xtime 을 shift 하는 수 )<br />
+ex) xtime &gt;&gt; shift = 189620 &gt;&gt; 10<br />
+                   = 185ns<br /><br />
 
-mult 에서 소요시간을 구하는 방법<br /><br />
-
-18962 &gt;&gt; 10 = 18962 / 1024 = 18.51757813ns : shift<br /><br />
-
+shift 가 클수록, mult 값은 2의 승으로 커지고, xtime 이 갖는 자릿수 정확도는 상수증가 합니다.<br /><br />
 
 4) shadow timekeeping<br /><br />
 </ul>
@@ -215,7 +214,7 @@ mult 에서 소요시간을 구하는 방법<br /><br />
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = http://feather973.github.io;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = http://featuer973.github.io;  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     */
@@ -268,7 +267,7 @@ mult 에서 소요시간을 구하는 방법<br /><br />
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Pengurues. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -290,7 +289,7 @@ mult 에서 소요시간을 구하는 방법<br /><br />
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
-      s.src = 'https://Test blog.disqus.com/embed.js';
+      s.src = 'https://Pengurues.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
